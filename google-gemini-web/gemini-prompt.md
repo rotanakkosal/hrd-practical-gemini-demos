@@ -1,86 +1,134 @@
-# Best Practice Prompt Examples for Gemini
+# Best Practice Prompt Examples for Gemini in Daily Chat
+
+These examples are written for normal Gemini chat use. They are not API-style prompts. Each prompt clearly states the task, context, expected output, and simple constraints.
 
 ## 1. Explanation Prompt
 
 ```text
-Explain Next.js server-side rendering to beginner web development students.
-Use simple and connected sentences.
-Focus on what SSR is, why it is useful, and when developers should use it.
-Avoid deep technical terms.
-Return the answer in 2 short paragraphs.
+Explain Next.js Server Components in simple words.
+I am a beginner web development student.
+Please explain what they are, why they are useful, and when I should use them.
+Keep the answer short and easy to understand.
 ```
 
 ## 2. Slide Content Prompt
 
 ```text
-Create one presentation slide about Spring Boot REST API development.
+Help me create one simple presentation slide about Spring Boot REST API development.
 The audience is beginner backend students.
-Use short, clear sentences.
-Include one title and 3 key points.
+Please include one title and 3 short key points.
 Focus on controller, service, and repository layers.
-Keep the tone simple and academic.
 ```
 
 ## 3. Document Summary Prompt
 
 ```text
-Based on the technical document below, summarize the main setup steps for a Next.js and PostgreSQL project.
-Only use information from the document.
+Document:
+[paste the technical document about a Next.js and PostgreSQL project here]
+
+Question:
+Based on the document above, summarize the main setup steps in simple bullet points.
+Only use the information from the document.
 If something is not mentioned, write “Not specified.”
-Keep each bullet point under 20 words.
-Document: [paste document]
 ```
 
 ## 4. Long-Context Prompt
 
 ```text
-Read the full context below first.
-After reading it, answer the question at the end.
-Base your answer only on the provided context.
-If evidence is missing, say clearly that the context does not provide enough information.
-Context: [paste long Spring Boot project description]
-Question: Based on the information above, what are the main weaknesses in this backend architecture?
+Context:
+[paste long Spring Boot project description here]
+
+Question:
+Based on the information above, what are the main weaknesses in this backend architecture?
+Please suggest 3 practical improvements.
 ```
 
 ## 5. Multimodal Image Prompt
 
 ```text
-Analyze the attached system architecture diagram.
-Identify the main components, data flow, and database connection.
-Focus on how Next.js, Spring Boot, and PostgreSQL interact.
-Return the answer in this format:
-1. Main components
-2. Data flow
-3. Database role
-4. Possible architecture issues
+Please analyze this system architecture diagram.
+Focus on how Next.js, Spring Boot, and PostgreSQL are connected.
+Tell me the main components, the data flow, the database role, and any possible architecture issues.
 ```
 
 ## 6. Code Debugging Prompt
 
 ```text
-You are a Spring Boot debugging assistant.
-Find the cause of this error and suggest the minimum fix.
-Explain the problem in simple terms first, then provide the corrected code.
+Error:
+[paste error here]
+
+Code:
+[paste code here]
+
+I have an error in my Spring Boot code.
+Please help me find the cause and suggest the minimum fix.
+Explain the problem in simple terms first.
 Do not rewrite unrelated parts of the code.
-Error: [paste error]
-Code: [paste Spring Boot code]
+
 ```
 
-## 7. Structured Output Prompt
+## 7. Structured Answer Prompt
 
 ```text
-Extract the following information from the SQL schema: table names, primary keys, foreign keys, and relationships.
-Return valid JSON only.
-If a field is missing, use null.
-SQL schema: [paste PostgreSQL schema]
+Schema:
+[paste PostgreSQL schema here]
+
+Please read this PostgreSQL schema and explain its structure.
+Identify the table names, primary keys, foreign keys, and relationships.
+Use a clear table format if possible.
+
 ```
 
 ## 8. Translation Prompt
 
 ```text
-Translate the following technical explanation into natural academic English.
-Preserve the original meaning.
+Text:
+[paste explanation here]
+
+Please translate this technical explanation into natural academic English.
+Keep the original meaning.
 Do not add new information.
-Use clear and formal wording.
-Text: [paste explanation about Next.js, Spring Boot, or PostgreSQL]
+Make the wording clear and formal.
+
+```
+
+# Selected Prompt Examples for Slide
+
+These four examples are shorter and easier to place on a slide.
+
+## 1. Explanation Prompt
+
+```text
+Explain Next.js Server Components in simple words
+I am a beginner web development student.
+Please explain what they are, why they are useful, and when I should use them.
+Keep the answer short and easy to understand.
+```
+
+## 2. Summarization Prompt
+
+```text
+[context]
+
+With the technical document about a Next.js and PostgreSQL project above.
+Please summarize the main setup steps in simple bullet points.
+Only use the information from the document.
+```
+
+## 3. Code Debugging Prompt
+
+```text
+[code]
+
+I have an error in my Spring Boot code.
+Please help me find the cause and suggest the minimum fix.
+Explain the problem in simple terms first.
+```
+
+## 4. Long-Context Prompt
+
+```text
+Context: [Paste the Spring Boot project description here]
+Question: Based on the information above, what are the main backend architecture issues?
+Please suggest 3 practical improvements.
 ```
