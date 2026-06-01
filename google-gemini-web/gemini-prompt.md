@@ -113,17 +113,7 @@ Please summarize the main setup steps in simple bullet points.
 Only use the information from the document.
 ```
 
-## 3. Code Debugging Prompt
-
-```text
-[code]
-
-I have an error in my Spring Boot code.
-Please help me find the cause and suggest the minimum fix.
-Explain the problem in simple terms first.
-```
-
-## 4. Long-Context Prompt
+## 3. Long-Context Prompt
 
 ```text
 Context: [Paste the Spring Boot project description here]
