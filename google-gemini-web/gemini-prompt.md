@@ -1,7 +1,5 @@
 # Best Practice Prompt Examples for Gemini in Daily Chat
 
-These examples are written for normal Gemini chat use. They are not API-style prompts. Each prompt clearly states the task, context, expected output, and simple constraints.
-
 ## 1. Explanation Prompt
 
 ```text
