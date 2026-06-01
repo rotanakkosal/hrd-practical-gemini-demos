@@ -92,7 +92,7 @@ Make the wording clear and formal.
 
 # Selected Prompt Examples for Slide
 
-These four examples are shorter and easier to place on a slide.
+These 3 examples are shorter and easier to place on a slide.
 
 ## 1. Explanation Prompt
 
