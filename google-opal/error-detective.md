@@ -1,6 +1,6 @@
 # Non-Linear Full-Stack Error Detective
 
-A specialized full-stack debugging triage pipeline inside Google Opal. It analyzes raw stack traces, terminal crashes, or browser console errors to trace data lifecycles and pinpoint exactly where an application failed.
+A specialized full-stack debugging triage pipeline inside Google Opal. It analyzes raw stack traces, terminal crashes, or browser console errors to trace data lifecycles and pinpoint exactly where an application failed. https://opal.google/app/1ipy9l4vLZHvnnLGeFtMzYIvlE5wNOrBb
 
 ---
 
