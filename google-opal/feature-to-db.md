@@ -1,6 +1,6 @@
 # Feature-to-Database Planner
 
-An automated, node-based development utility built inside Google Opal. This tool accepts plain-language app feature descriptions and transforms them through an AI architecture pipeline into a structured full-stack blueprint covering Frontend UI components, Backend API routes, and Database schema tables.
+An automated, node-based development utility built inside Google Opal. This tool accepts plain-language app feature descriptions and transforms them through an AI architecture pipeline into a structured full-stack blueprint covering Frontend UI components, Backend API routes, and Database schema tables. https://opal.google/app/1vOJpzli4HGby5SEGpEGdYqnr0EuTu9PI
 
 ---
 
